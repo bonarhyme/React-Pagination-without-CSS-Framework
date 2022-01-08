@@ -3,15 +3,31 @@ import { football } from "../variables/data";
 import Pagination from "./Pagination";
 
 const Table = () => {
-  const pageLength = football.length / 5;
+  const pageSize = 5;
+  const pageLength = football.length / pageSize;
   const [page, setPage] = useState(1);
-  const [list, setList] = useState(football.slice(page - 1, page * 5));
+  const [list, setList] = useState(football.slice(page - 1, page * pageSize));
 
   const handlePage = (thePage) => {
     setPage(thePage);
-    const t = football.slice((thePage - 1) * 5, thePage * 5);
+    const t = football.slice((thePage - 1) * pageSize, thePage * pageSize);
     setList(t);
   };
+
+  const prevHandler = (thePage) => {
+    if (thePage === 1) {
+      handlePage(1);
+    } else {
+      handlePage(Number(thePage) - 1);
+    }
+  };
+
+  const nextHandler = (thePage, thePageLength) => {
+    if (thePage < thePageLength) {
+      handlePage(Number(thePage) + 1);
+    }
+  };
+
   return (
     <div className="table-container">
       <table className="table">
@@ -39,9 +55,11 @@ const Table = () => {
       <Pagination
         page={page}
         pages={pageLength}
-        onClick={(e) => {
-          handlePage(e);
+        onClick={(pageEvent) => {
+          handlePage(pageEvent);
         }}
+        prevHandler={() => prevHandler(page)}
+        nextHandler={() => nextHandler(page, pageLength)}
       />
     </div>
   );

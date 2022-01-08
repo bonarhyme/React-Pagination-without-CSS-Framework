@@ -1,9 +1,13 @@
 import React from "react";
 
-const Pagination = ({ page, pages, onClick }) => {
+const Pagination = ({ page, pages, onClick, prevHandler, nextHandler }) => {
   return (
     <div>
       <ul className="pages-container">
+        <li className="page-item" onClick={prevHandler}>
+          Prev
+        </li>
+
         {[...Array(Math.ceil(pages)).keys()].map((x, i) => {
           return (
             <li
@@ -15,6 +19,10 @@ const Pagination = ({ page, pages, onClick }) => {
             </li>
           );
         })}
+
+        <li className="page-item" onClick={nextHandler}>
+          Next
+        </li>
       </ul>
     </div>
   );

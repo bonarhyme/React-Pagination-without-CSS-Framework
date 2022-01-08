@@ -1,6 +1,10 @@
 # Pagination in ReactJS without a CSS Framework
 
-## What is Pagination
+## What does this project do?
+
+In this project, a pagination functionality was created. It was created without a CSS framework.
+
+## What is Pagination?
 
 Pagination is the sequence of numbers assigned to pages in a website. They help group a large amount of data or response into smaller groups. This grouping enables the user or viewer understand and navigate through the data in an orderly manner.
 

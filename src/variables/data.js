@@ -159,4 +159,64 @@ export const football = [
     short: "DER",
     country: "England",
   },
+  {
+    long: "Fulham",
+    short: "FUL",
+    country: "England",
+  },
+  {
+    long: "Huddersfield Town",
+    short: "HUD",
+    country: "England",
+  },
+  {
+    long: "Hull City",
+    short: "HULL",
+    country: "England",
+  },
+  {
+    long: "Luton Town",
+    short: "LUT",
+    country: "England",
+  },
+  {
+    long: "Middlesbrough",
+    short: "MID",
+    country: "England",
+  },
+  {
+    long: "Millwall",
+    short: "MIL",
+    country: "England",
+  },
+  {
+    long: "Nottingham Forest",
+    short: "FOR",
+    country: "England",
+  },
+  {
+    long: "Peterborough United",
+    short: "PET",
+    country: "England",
+  },
+  {
+    long: "Preston North End",
+    short: "PRE",
+    country: "England",
+  },
+  {
+    long: "Queens Park Rangers",
+    short: "QPR",
+    country: "England",
+  },
+  {
+    long: "Reading",
+    short: "REA",
+    country: "England",
+  },
+  {
+    long: "Sheffield United",
+    short: "SHU",
+    country: "England",
+  },
 ];

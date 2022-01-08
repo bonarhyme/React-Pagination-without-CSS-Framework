@@ -18,7 +18,41 @@ body {
   align-items: center;
   margin-top: 5rem;
 }
+.table-container {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.274);
+}
+.table {
+  margin: 1.5rem;
+  width: 80%;
+  height: 400px;
+}
+.table th {
+  text-align: left;
+}
+th {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+}
+td {
+  border-top: 1px solid rgba(0, 0, 255, 0.185);
+  padding: 0.7rem 0;
+}
 
+.table .center {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+caption {
+  font-size: 1.4rem;
+  margin-bottom: 1.3rem;
+  color: blue;
+  font-weight: 600;
+}
 .pages-container {
   display: flex;
   list-style: none;
@@ -32,7 +66,7 @@ body {
 }
 
 .page-item:hover {
-  background-color: blue;
+  background-color: rgba(46, 46, 214, 0.253);
   color: white;
 }
 

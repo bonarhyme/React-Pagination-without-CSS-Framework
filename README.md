@@ -10,7 +10,7 @@ Pagination is the sequence of numbers assigned to pages in a website. They help 
 
 Pagination can be achieved using a CSS framework such as bootstrapCSS. However, nothing beats creating the logic yourself and knowing how it works under the hood. This gives you the advantage of customization and knowledge expansion. It enables you understand better how to use functions and props in ReactJS.
 
-![Pagination in ReactJS without a CSS Framework](cover.PNG "Pagination in ReactJS without a CSS Framework")
+![Pagination in ReactJS without a CSS Framework](demo.gif "Pagination in ReactJS without a CSS Framework")
 
 ## How to start the project
 
@@ -35,5 +35,7 @@ _twitter: [https://twitter.com/bonarhyme](https://twitter.com/bonarhyme)_
 _blog: [https://blog.bonarhyme.com](https://blog.bonarhyme.com)_
 
 _youtube: [Bonarhyme Tech Hub](https://www.youtube.com/channel/UCPT421nhI8h1nJ5vIIZ7M9A)_
+
+_Patreon: [Bonarhyme Tech Hub](https://www.patreom.com/BonaryhmeTechHub)_
 
 _Please leave a star_
